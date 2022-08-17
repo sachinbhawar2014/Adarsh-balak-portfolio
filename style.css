@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Navigation Decoration */
@@ -28,4 +28,24 @@ body{
 
 .navigation .nav-pills{
     text-align: right;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+.hero{
+    text-align: center;
+    color: gray;
+}
+
+.hero .web-dev{
+    color: blueviolet;
+    font-weight:bolder;
+}
+
+
+.section-design h3{
+    text-align: center;
 }
