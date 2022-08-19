@@ -6,7 +6,8 @@ body{
 
 @media (max-width:400px) {
     img{
-        box-sizing: 400px;      
+        width:(787/7.78*4)px;   
+        height: (572/5.72*4)px;
     }
     body{
         font-size: smaller;
