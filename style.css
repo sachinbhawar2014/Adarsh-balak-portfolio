@@ -4,6 +4,21 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen(max-width:400px) {
+    img{
+        width: 400px;      
+    }
+    body{
+        font-size: smaller;
+    }
+    .link{
+        text-decoration: none;
+        color:white;
+        padding: 0.2rem 0.2rem;
+        border-radius: 0.2rem;
+    }
+    
+}
 /* Navigation Decoration */
 .navigation{
     background-color: blueviolet;
@@ -38,8 +53,18 @@ body{
 .link{
     text-decoration: none;
     color:white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
 }
 
+.link:hover{
+
+    color: black;
+    background-color:pink;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+
+}
 .hero{
     text-align: center;
     color: gray;
