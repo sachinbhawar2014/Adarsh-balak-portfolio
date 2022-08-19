@@ -4,9 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen(max-width:400px) {
+@media (max-width:400px) {
     img{
-        width: 400px;      
+        box-sizing: 400px;      
     }
     body{
         font-size: smaller;
