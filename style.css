@@ -98,6 +98,7 @@ body{
 .section-design p{
    margin: 1rem 1rem;
    padding: 1rem 1rem;
+   text-align: center;
 }
 
 .link-active{
@@ -114,9 +115,7 @@ body{
     padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: violet;
     border-radius: 0.5rem;
-    margin-left: 2rem;
-    border-color: rgb(9, 5, 14);
-    border-width: 2px;
+    margin-left: 3rem;      
 }
 
 .section-design2 h3{
@@ -126,6 +125,7 @@ body{
 .section-design2 p{
     margin: 1rem 1rem;
     padding: 1rem 1rem;
+    text-align: center;
  }
 
 .section-design2 .link{
@@ -133,8 +133,6 @@ body{
     font-weight: bold;
     padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: blue;
-    border-radius: 0.5rem;
-    margin-left: 2rem;
-    border-color:violet;
-    border-width: 2px;
+    border-radius: 1rem;
+    margin-left: 5rem;
 }
