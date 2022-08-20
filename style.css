@@ -4,10 +4,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width:300px) {
+@media (max-width:600px) {
     img{
-        width:30%;   
-        height: 30%;
+        width:40%;   
+        height: 40%;
     }
     body{
         font-size: smaller;
@@ -20,8 +20,8 @@ body{
         border-radius: 0.2rem;
     }
     .list-item-inline{
-        display: inline;
-        padding: 1rem 0.5rem 1rem 0.5rem;
+        display: block;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
     
     .navigation .nav-pills{
@@ -118,11 +118,19 @@ body{
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: violet;
     border-radius: 0.5rem;
-    margin-left: 3rem;      
+    margin-left: 3rem; 
+         
 }
 
 .section-design2 h3{
     text-align: center;
+}
+.container-center{
+    padding: 1rem 1rem;
+}
+
+.container-center a{
+    margin: auto;
 }
 
 .section-design2 p{
@@ -138,4 +146,8 @@ body{
     background-color: blue;
     border-radius: 1rem;
     margin: 5rem;
+}
+
+.link-primary{
+    margin: auto;
 }
