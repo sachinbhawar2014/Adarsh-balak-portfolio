@@ -86,17 +86,20 @@ body{
 
 .section-design{
 
-    padding: 1 rem 1rem;
+    padding: 0.5rem 0.5rem;
     background-color: rgb(235, 227, 227);
     border-radius: 1rem;
 }
-
+.section-design h5{
+    text-align: center;
+}
 .section-design h3{
     text-align: center;
-    padding-top: 1rem;
+
 }
+
 .section-design p{
-   margin: 1rem 1rem;
+   
    padding: 1rem 1rem;
    text-align: center;
 }
@@ -112,7 +115,7 @@ body{
 .section-design .link{
     color:white;
     font-weight: bold;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: violet;
     border-radius: 0.5rem;
     margin-left: 3rem;      
