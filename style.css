@@ -6,8 +6,8 @@ body{
 
 @media (max-width:600px) {
     img{
-        width:40%;   
-        height: 40%;
+        width:70%;   
+        height: 70%;
     }
     body{
         font-size: smaller;
@@ -21,7 +21,7 @@ body{
     }
     .list-item-inline{
         display: block;
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        padding: 0rem 0rem;
     }
     
     .navigation .nav-pills{
@@ -92,6 +92,7 @@ body{
 }
 .section-design h5{
     text-align: center;
+    padding: 10px 10px;
 }
 .section-design h3{
     text-align: center;
@@ -100,7 +101,8 @@ body{
 
 .section-design p{
    
-   padding: 1rem 1rem;
+   padding-top: 5px;
+   padding-bottom: 5px;
    text-align: center;
 }
 
@@ -149,5 +151,5 @@ body{
 }
 
 .link-primary{
-    margin: auto;
+    display: block;
 }
