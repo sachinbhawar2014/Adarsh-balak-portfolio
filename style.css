@@ -4,10 +4,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width:400px) {
+@media (max-width:300px) {
     img{
-        width:(787/7.78*4)px;   
-        height: (572/5.72*4)px;
+        width:(787/7.78*3)px;   
+        height: (572/5.72*3)px;
     }
     body{
         font-size: smaller;
