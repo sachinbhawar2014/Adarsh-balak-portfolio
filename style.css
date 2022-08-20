@@ -47,7 +47,7 @@ body{
 }
 .list-item-inline{
     display: inline;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 0.3rem 1rem 0.3rem;
 }
 
 .navigation .nav-pills{
