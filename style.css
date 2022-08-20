@@ -19,7 +19,14 @@ body{
         padding: 0.2rem 0.2rem;
         border-radius: 0.2rem;
     }
+    .list-item-inline{
+        display: inline;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+    }
     
+    .navigation .nav-pills{
+        text-align: center;
+    }
 }
 /* Navigation Decoration */
 .navigation{
@@ -40,7 +47,7 @@ body{
 }
 .list-item-inline{
     display: inline;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .navigation .nav-pills{
