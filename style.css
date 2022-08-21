@@ -47,7 +47,7 @@ body{
 }
 .list-item-inline{
     display: inline;
-    padding: 1rem 0.3rem 1rem 0.3rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
 }
 
 .navigation .nav-pills{
@@ -59,11 +59,19 @@ body{
     
 }
 
-.link{
+.link-primary{
     text-decoration: none;
     color:white;
     padding: 0.5rem 0.5rem;
     border-radius: 0.4rem;
+}
+
+.link-secondary{
+    text-decoration: none;
+    color:white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+
 }
 
 .link:hover{
@@ -86,13 +94,13 @@ body{
 
 .section-design{
 
-    padding: 0.5rem 0.5rem;
+    padding: 0.1rem 0.1rem;
     background-color: rgb(235, 227, 227);
     border-radius: 1rem;
 }
 .section-design h5{
     text-align: center;
-    padding: 10px 10px;
+    padding: 5px 5px;
 }
 .section-design h3{
     text-align: center;
@@ -100,8 +108,7 @@ body{
 }
 
 .section-design p{
-   
-   padding-top: 5px;
+      padding-top: 5px;
    padding-bottom: 5px;
    text-align: center;
 }
@@ -115,20 +122,20 @@ body{
 }
 
 .section-design .link{
-    color:white;
+    color: blueviolet;
     font-weight: bold;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: violet;
-    border-radius: 0.5rem;
-    margin-left: 3rem; 
-         
+    border-width: 5px;
+    border-color:blueviolet
+    border-radius: 0.7rem;
+    border-style:solid;
 }
 
 .section-design2 h3{
     text-align: center;
 }
 .container-center{
-    padding: 1rem 1rem;
+    padding: 0.4rem 0.4rem;
 }
 
 .container-center a{
@@ -148,8 +155,4 @@ body{
     background-color: blue;
     border-radius: 1rem;
     margin: 5rem;
-}
-
-.link-primary{
-    display: block;
 }
