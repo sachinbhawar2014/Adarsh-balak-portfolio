@@ -58,7 +58,9 @@ body{
     color: violet;
     
 }
-
+.list-item-inline .link{
+    text-decoration: none;
+}
 .link-primary{
     text-decoration: none;
     color:white;
