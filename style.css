@@ -60,11 +60,10 @@ body{
     padding-bottom: 1rem;
     font-weight: bolder;
 }
-
-.section-design .container-center .imp-links{
+.imp-links{
     text-align: center;
 }
-.section-design2 .container-center .imp-links{
+.imp-links{
     text-align: center;
 }
 .link-primary{
