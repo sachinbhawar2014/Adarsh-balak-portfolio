@@ -16,12 +16,11 @@ body{
     .link{
         text-decoration: none;
         color:white;
-        padding: 0.2rem 0.2rem;
         border-radius: 0.2rem;
     }
     .list-item-inline{
         display: block;
-        padding: 0.2rem 0.2rem;
+       
     }
     
     .navigation .nav-pills{
@@ -47,19 +46,25 @@ body{
 }
 .list-item-inline{
     display: inline;
-    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    padding: 0.2rem 0rem 0.2rem 0rem;
 }
 
 .navigation .nav-pills{
-    text-align: right;
+    text-align: center;
 }
 
 .sachin{
-    color: violet;
-    
+    color: rgb(240, 10, 10);
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
 }
-.imp-links{
-    
+
+.section-design .container-center .imp-links{
+    text-align: center;
+}
+.section-design2 .container-center .imp-links{
     text-align: center;
 }
 .link-primary{
@@ -85,11 +90,19 @@ body{
 .link:hover{
 
     color: black;
-    background-color:rgb(223, 61, 88);
+    background-color:white;
     padding: 0.5rem 0.5rem;
     border-radius: 0.4rem;
 
 }
+/* .link-primary:hover{
+
+    color: black;
+    background-color:white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+
+} */
 .hero{
     text-align: center;
     color: gray;
@@ -101,14 +114,14 @@ body{
 }
 
 .section-design{
-
     padding: 0.1rem 0.1rem;
     background-color: rgb(235, 227, 227);
     border-radius: 1rem;
 }
 .section-design h5{
     text-align: center;
-    padding: 5px 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .section-design h3{
     text-align: center;
@@ -116,16 +129,16 @@ body{
 }
 
 .section-design p{
-      padding-top: 5px;
-   padding-bottom: 5px;
-   text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 .link-active{
     font-weight: bolder;
-    color: pink;
-    background-color:greenyellow;
-    padding: 0.5rem 0.5rem;
+    color: white;
+    background-color:black;
+    /* padding: 0.5rem 0.5rem; */
     border-radius: 0.4rem;
 }
 
@@ -145,7 +158,8 @@ body{
     text-align: center;
 }
 .container-center{
-    padding: 1rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -157,7 +171,7 @@ body{
     color:white;
     font-weight: bold;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: blue;
-    border-radius: 1rem;
-    margin: 5rem;
+    background-color: rgb(125, 125, 224);
+    border-radius: 0.6rem;
+    
 }
