@@ -8,7 +8,7 @@ body{
 
 }
 
-@media (max-width:400px) {
+@media (max-width:900px) {
     img{
         width:70%;   
         height:70%;
